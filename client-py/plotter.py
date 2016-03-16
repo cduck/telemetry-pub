@@ -364,7 +364,7 @@ if __name__ == "__main__":
         subplot.set_xlim([latest_indep[0] - args.span, latest_indep[0]])
 
     plt.ion()
-    plt.draw()
+    plt.pause(0.0001)
 
 
   def set_plot_dialog(plot):
@@ -421,7 +421,7 @@ if __name__ == "__main__":
 
 
     plt.ion()
-    plt.draw()
+    plt.pause(0.0001)
 
     cp.init(stdscr_instance) #init's, and then runs, curses.
 
